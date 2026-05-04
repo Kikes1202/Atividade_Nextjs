@@ -1,0 +1,7 @@
+.footer{
+    background-color: var(--bg-dark);
+    width: 100vw;
+    height: 20vh;
+    z-index: -1;
+    border: white solid 1px;
+}

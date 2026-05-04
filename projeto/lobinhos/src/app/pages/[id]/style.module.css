@@ -1,0 +1,15 @@
+.wrapper{
+    background: var(--gradient);
+    width: 80vw;
+    height: 70vh;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loboFoto{
+    background: var(--gradient);
+    width: 50%;
+    height: 100%;
+}

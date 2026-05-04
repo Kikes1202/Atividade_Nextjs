@@ -1,0 +1,39 @@
+.main{
+  background-color: var(--bg-dark);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background-image: url('/snowforest2.png');
+  background-size: cover;
+  padding-top: 2rem;
+}
+
+.clicavel{
+  cursor: url('/pibpointer.png'), auto;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+.pageContainer{
+  width: 90vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  border-top: 1px solid var(--highlight);
+  
+}
+

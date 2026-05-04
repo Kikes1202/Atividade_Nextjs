@@ -1,0 +1,33 @@
+
+
+.headerContainer{
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--bg-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem ;
+    box-shadow: var(--sombra);
+    position: relative;
+    z-index: 10;
+
+}
+
+.logoLobo{
+    cursor: url('/pibpointer.png'), auto;
+    transition: 0.3s ease;
+    width: 3em;
+    height: 3em;
+}
+
+.logoLobo:hover{
+    transform: scale(1.1);
+    background: none;
+
+}
+
+
+
+
+

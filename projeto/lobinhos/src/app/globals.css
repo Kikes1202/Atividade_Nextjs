@@ -1,0 +1,36 @@
+:root{
+--bg-dark: oklch(0.92 0.1 255);
+--bg: oklch(94.207% 0.0514 210.116 / 0.678);
+--bg-light: oklch(1 0.1 255);
+--text: oklch(0.15 0.2 255);
+--text-muted: oklch(0.4 0.2 255);
+--highlight: oklch(1 0.2 255);
+--border: oklch(0.6 0.2 255);
+--border-muted: oklch(0.7 0.2 255);
+--primary: oklch(0.4 0.2 255);
+--secondary: oklch(0.4 0.2 75);
+--danger: oklch(0.5 0.2 30);
+--warning: oklch(0.5 0.2 100);
+--success: oklch(63.867% 0.18096 148.801);
+--info: oklch(0.5 0.2 260);
+--sombra-light: 0 2px 1px oklch(0.92 0.1 255);
+--sombra-dark: inset 0 4px 8px #00000030;
+--sombra: 0 2px 1px #00000041;
+--shadow: 0px 2px 2px oklch(0 0 0 / 0.2), 0px 4px 4px oklch(0 0 0 / 0.1);
+--gradient: linear-gradient(0deg, var(--bg) 97%, var(--bg-light));
+--gradient-hover: linear-gradient(0deg, var(--bg), var(--bg-light));
+--border-card: solid 1px var(--bg);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+
+.main{
+  cursor: url('/pib60.png'), auto;
+}
