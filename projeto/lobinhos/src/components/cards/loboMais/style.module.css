@@ -65,7 +65,7 @@
 
 .loboNome{
     width: 100%;
-    font-size: clamp(2rem, 5vw, 4rem);
+    font-size: clamp(2rem, 2vw, 4rem);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -127,11 +127,11 @@
 
 .loboAdotar button{
     width: 100%;
-    height: clamp(8rem, 5vh, 10rem);
+    height: clamp(5rem, 10vh, 10rem);
     border: 1px solid var(--border);
     border-radius: 1rem;
     background: var(--bg-dark);
-    font-size: 5rem;
+    font-size: 3em;
     text-decoration: none;
     border: none;
     cursor: url('/pibpointer.png'), auto;
